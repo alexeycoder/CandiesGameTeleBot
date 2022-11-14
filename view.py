@@ -2,8 +2,8 @@ import random
 
 from common import (CMD_MENU, CMD_PLAY, CMD_PREFIX, CMD_RULES, CMD_SCORE,
                     CMD_SETTINGS, CMD_SURRENDER, CMD_TOP, CMD_WHO,
-                    MIN_ALLOWED_CANDIES_PER_TURN, MIN_ALLOWED_CANDIES_TOTAL,
-                    MAIN_STICKER_TOKEN)
+                    MAIN_STICKER_TOKEN, MIN_ALLOWED_CANDIES_PER_TURN,
+                    MIN_ALLOWED_CANDIES_TOTAL)
 
 HTML_MENU = (
     '<em>Доступные команды:</em>'

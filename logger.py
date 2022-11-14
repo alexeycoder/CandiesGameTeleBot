@@ -1,12 +1,12 @@
-from datetime import datetime
 import inspect
-from sys import stderr
-# from telegram import Update
-import os
 import ntpath
+import os
+from datetime import datetime
+from sys import stderr
+
 from aiogram import types
 
-from common import LOGS_PATH, LOG_FILENAME_PFX, LOG_FILENAME_EXT
+from common import LOG_FILENAME_EXT, LOG_FILENAME_PFX, LOGS_PATH
 
 log_file = None
 

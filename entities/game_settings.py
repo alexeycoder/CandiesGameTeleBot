@@ -1,5 +1,7 @@
+from common import (CANDIES_PER_TURN_DEFAULT, CANDIES_TOTAL_DEFAULT,
+                    DIFFICUTLY_DEFAULT)
+
 from .difficulty_level import DifficultyLevel
-from common import CANDIES_TOTAL_DEFAULT, CANDIES_PER_TURN_DEFAULT, DIFFICUTLY_DEFAULT
 
 
 class GameSettings:

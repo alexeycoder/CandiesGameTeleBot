@@ -1,8 +1,10 @@
 from datetime import datetime
 from typing import NamedTuple
+
 from common import USER_TIMEOUT_SECONDS
-from .game_settings import GameSettings
+
 from .difficulty_level import DifficultyLevel
+from .game_settings import GameSettings
 from .interaction_state import InteractionState
 
 

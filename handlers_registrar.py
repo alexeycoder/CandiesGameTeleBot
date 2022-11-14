@@ -2,10 +2,8 @@ from aiogram import Dispatcher, filters, types
 
 import commands
 import common
-from common import (CMD_START, CMD_MENU, CMD_PLAY,
-                    CMD_SURRENDER,
-                    CMD_RULES, CMD_SETTINGS,
-                    CMD_WHO, CMD_TOP, CMD_SCORE)
+from common import (CMD_MENU, CMD_PLAY, CMD_RULES, CMD_SCORE, CMD_SETTINGS,
+                    CMD_START, CMD_SURRENDER, CMD_TOP, CMD_WHO)
 
 
 def register(dp: Dispatcher):

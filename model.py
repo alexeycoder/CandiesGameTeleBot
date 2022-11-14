@@ -1,10 +1,11 @@
+import itertools
 import random
+
 import common
-from entities.user_session import UserSession
+from entities.difficulty_level import DifficultyLevel
 from entities.game_settings import GameSettings
 from entities.interaction_state import InteractionState
-from entities.difficulty_level import DifficultyLevel
-import itertools
+from entities.user_session import UserSession
 
 ERR_EXISTING_USER_REQ = 'This mtod is not assumed to be called for new users.'
 

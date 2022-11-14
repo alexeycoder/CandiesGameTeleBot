@@ -6,7 +6,6 @@ LOG_FILENAME_EXT = 'csv'
 
 USER_TIMEOUT_SECONDS = 30 * 60
 
-
 CMD_PREFIX = '/'
 
 CMD_START = 'start'
